@@ -59,6 +59,7 @@ function checkHtmlStructure(testCase) {
                 }
             }
         }
+
         if (err.length > 0 || stack.length > 0) {
             err.concat(stack).forEach((e) => {
                 errors.push(maple.get(e) + "Asad");
